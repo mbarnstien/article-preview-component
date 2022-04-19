@@ -1,0 +1,58 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: hsl(210, 46%, 95%);
+}
+
+.card {
+    display: grid;
+    place-content: center;
+    margin: 100px auto;
+    border-radius: 15px;
+    background-color: #ffffff;
+    max-width: 325px;
+}
+
+img {
+    width: 325px;
+}
+
+#drawers {
+    border-radius: 15px 15px 0 0;
+}
+
+.card-share {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#avatar {
+    border-radius: 50%;
+    height: 50px;
+    width: 50px;
+}
+
+.circle {
+    border-radius: 50%;
+    height: 30px;
+    width: 30px;
+    background-color: hsl(210, 46%, 95%);
+}
+
+#share {
+    height: 15px;
+    width: 15px;
+}
+
+/**footer**/
+.attribution { 
+    font-size: 11px; 
+    text-align: center; 
+}
+.attribution a { 
+    color: hsl(228, 45%, 44%); 
+}
