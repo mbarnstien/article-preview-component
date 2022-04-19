@@ -5,6 +5,9 @@
 
 body {
     background-color: hsl(210, 46%, 95%);
+    font-family: 'Manrope', sans-serif;
+    font-size: 13px;
+    font-weight: 500;
 }
 
 .card {
@@ -20,20 +23,57 @@ img {
     width: 325px;
 }
 
+.cropped {
+    height: 215px;
+    overflow: hidden;
+}
+
 #drawers {
     border-radius: 15px 15px 0 0;
+}
+
+.card-text {
+    margin: 30px;
+}
+
+.card-text h2 {
+    font-size: 1.25em;
+    font-weight: 700;
+    line-height: 1.5em;
+    padding-bottom: 20px;
+}
+
+.card-text p {
+    line-height: 1.5em;
+    font-size: 1.03em;
+    color: hsl(217, 19%, 35%);
 }
 
 .card-share {
     display: flex;
     justify-content: space-between;
     align-items: center;
+    margin: 0px 30px 20px 30px;
 }
 
 #avatar {
     border-radius: 50%;
-    height: 50px;
-    width: 50px;
+    height: 40px;
+    width: 40px;
+}
+
+.share-text {
+    margin-left: -40px;
+}
+
+.card-share h3 {
+    font-size: 1em;
+    padding-bottom: 5px;
+}
+
+.card-share h4 {
+    color: hsl(212, 23%, 69%);
+    font-size: 0.9em;
 }
 
 .circle {
@@ -41,10 +81,13 @@ img {
     height: 30px;
     width: 30px;
     background-color: hsl(210, 46%, 95%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 #share {
-    height: 15px;
+    height: 13px;
     width: 15px;
 }
 

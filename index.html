@@ -8,12 +8,15 @@
   
   <title>Frontend Mentor | Article preview component</title>
 
+  <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@500;700&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="main.css">
 
 </head>
 <body>
   <div class="card">
-    <img src="images/drawers.jpg" alt="Desk drawers" id="drawers" />
+    <div class="cropped">
+      <img src="images/drawers.jpg" alt="Desk drawers" id="drawers" />
+    </div>
     <div class="card-text">
       <h2>Shift the overall look and feel by adding these wonderful touches to furniture in your home</h2>
 
@@ -21,8 +24,10 @@
     </div>
     <div class="card-share">
       <img src="images/avatar-michelle.jpg" alt="Self Potrait"  id="avatar" />
-      <h3>Michelle Appleton</h3>
-      <h4>28 Jun 2020</h4>
+      <div class="share-text">
+        <h3>Michelle Appleton</h3>
+        <h4>28 Jun 2020</h4>
+      </div>
       <div class="circle">
         <img src="images/icon-share.svg" alt="Share" id="share"/>
       </div>
