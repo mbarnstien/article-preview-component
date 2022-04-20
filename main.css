@@ -91,6 +91,51 @@ img {
     width: 15px;
 }
 
+/**Javascript Active States**/
+.hide {
+    display: none;
+}
+
+.active-share {
+    background-color: hsl(217, 19%, 35%);
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    border-radius: 0 0 15px 15px;
+    height: 65px;
+}
+
+.active-share p {
+    color: hsl(212, 23%, 69%); 
+    text-transform: uppercase;
+}
+
+.share-icons {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 50%;
+    margin-left: 40px;
+}
+
+.share-icons img {
+    height: 20px;
+    width: 20px;
+}
+
+.active-circle {
+    background-color: hsl(214, 17%, 51%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 15px;
+    margin-right: 30px;
+}
+
+#active-arrow {
+    fill: white;
+}
+
 /**footer**/
 .attribution { 
     font-size: 11px; 
