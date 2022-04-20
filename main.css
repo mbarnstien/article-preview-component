@@ -16,11 +16,11 @@ body {
     margin: 100px auto;
     border-radius: 15px;
     background-color: #ffffff;
-    max-width: 325px;
+    max-width: 85%;
 }
 
 img {
-    width: 325px;
+    width: 100%;
 }
 
 .cropped {
@@ -44,7 +44,7 @@ img {
 }
 
 .card-text p {
-    line-height: 1.5em;
+    line-height: 1.6em;
     font-size: 1.03em;
     color: hsl(217, 19%, 35%);
 }
@@ -98,4 +98,46 @@ img {
 }
 .attribution a { 
     color: hsl(228, 45%, 44%); 
+}
+
+@media only screen and (min-width: 1200px) {
+    .card {
+        margin: 100px auto;
+        max-width: 730px;
+        height: 280px;
+    }
+
+    .card-content {
+        display: flex;
+        flex-direction: row;
+        height: 100%;
+    }
+
+    img {
+        height: 100%;
+    }
+
+    .cropped {
+        width: 285px;
+        height: 280px;
+        object-fit: cover;
+        overflow: hidden;
+    }
+
+    #drawers {
+        border-radius: 15px 0 0 15px;
+    }
+
+    .card-info {
+        width: 60%;
+    }
+
+    .share-text {
+        margin-left: -140px;
+    }
+
+    .circle {
+        margin-right: 20px;
+    }
+
 }
