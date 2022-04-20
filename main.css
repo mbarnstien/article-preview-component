@@ -92,8 +92,8 @@ img {
 }
 
 /**Javascript Active States**/
-.hide {
-    display: none;
+.hidden {
+    display: none !important;
 }
 
 .active-share {
@@ -102,7 +102,9 @@ img {
     justify-content: space-between;
     flex-direction: row;
     border-radius: 0 0 15px 15px;
+    margin: -100px 0 0 30px;
     height: 65px;
+    width: 85%;
 }
 
 .active-share p {
@@ -185,4 +187,39 @@ img {
         margin-right: 20px;
     }
 
+    .active-share {
+        height: 55px;
+        width: 245px;
+        background: hsl(217, 19%, 35%);
+        display: block;
+        margin: 0 auto;
+        border-radius: 10px;
+        margin-top: 50px;
+        z-index: 9;
+        transform: translateX(290px) translateY(-263px);
+    }
+    
+    .pointer {
+        height: 20px;
+        width: 20px;
+        background: hsl(217, 19%, 35%);
+        margin: 0 auto;
+        transform: rotate(45deg) translateY(-420px) translateX(55px);
+        margin-top: -15px;
+        position: relative;
+        left: calc(0.5vw - 50px);
+    }
+
+    .active-share p {
+        font-size: 13px;
+    }
+
+    .share-icons {
+        width: 70%;
+        padding-top: 15px;
+    }
+
+    .active-circle {
+        display: none !important;
+    }
 }
