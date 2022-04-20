@@ -86,11 +86,6 @@ img {
     align-items: center;
 }
 
-#share {
-    height: 13px;
-    width: 15px;
-}
-
 /**Javascript Active States**/
 .hidden {
     display: none !important;
@@ -102,7 +97,7 @@ img {
     justify-content: space-between;
     flex-direction: row;
     border-radius: 0 0 15px 15px;
-    margin: -100px 0 0 30px;
+    margin: -100px 0 100px 30px;
     height: 65px;
     width: 85%;
 }
@@ -125,7 +120,7 @@ img {
     width: 20px;
 }
 
-.active-circle {
+.share-circle {
     background-color: hsl(214, 17%, 51%);
     display: flex;
     justify-content: center;
@@ -134,7 +129,7 @@ img {
     margin-right: 30px;
 }
 
-#active-arrow {
+.active-arrow {
     fill: white;
 }
 
@@ -219,7 +214,12 @@ img {
         padding-top: 15px;
     }
 
-    .active-circle {
+    .share-circle {
         display: none !important;
     }
+
+    .active-circle {
+        background-color: hsl(214, 17%, 51%);
+    }
+    
 }
